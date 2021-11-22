@@ -5,7 +5,7 @@ import Hamburger from '../../images/icon-hamburger.svg';
 
 import Navigation from './Navigation';
 
-function HeadWrapper() {
+function HeadWrapper({ toggleElements }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="bg-hero-pattern-mobile bg-center bg-cover lg:bg-hero-pattern-desktop">
@@ -20,12 +20,22 @@ function HeadWrapper() {
           <button
             className={`${isMenuOpen ? 'hidden' : ''} lg:hidden`}
             aria-expanded={isMenuOpen}
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            onKeyPress={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => {
+              setIsMenuOpen(!isMenuOpen);
+              toggleElements(false);
+            }}
+            onKeyPress={() => {
+              setIsMenuOpen(!isMenuOpen);
+              toggleElements(false);
+            }}
           >
             <img src={Hamburger} alt="" aria-hidden="true" />
           </button>
-          <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+          <Navigation
+            isMenuOpen={isMenuOpen}
+            setIsMenuOpen={setIsMenuOpen}
+            toggleElements={toggleElements}
+          />
         </div>
         <h1 className="text-white text-5xl p-5 mt-24 w-full max-w-sm uppercase font-josefin border-4 lg:text-7xl lg:border-2 lg:max-w-2xl">
           Immersive experiences that deliver

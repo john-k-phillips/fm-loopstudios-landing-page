@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from '../../images/logo.svg';
 import CloseIcon from '../../images/icon-close.svg';
 
-function Navigation({ isMenuOpen, setIsMenuOpen }) {
+function Navigation({ isMenuOpen, setIsMenuOpen, toggleElements }) {
   return (
     <nav
       className={`${
@@ -15,8 +15,14 @@ function Navigation({ isMenuOpen, setIsMenuOpen }) {
         <button
           className="lg:hidden"
           aria-expanded="true"
-          onClick={() => setIsMenuOpen(false)}
-          onKeyPress={() => setIsMenuOpen(false)}
+          onClick={() => {
+            setIsMenuOpen(false);
+            toggleElements(true);
+          }}
+          onKeyPress={() => {
+            setIsMenuOpen(false);
+            toggleElements(true);
+          }}
         >
           <img src={CloseIcon} alt="" aria-hidden="true" />
         </button>
