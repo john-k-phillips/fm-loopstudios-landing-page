@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: {
         'hero-pattern-desktop': "url('/src/images/desktop/image-hero.jpg')",
         'hero-pattern-mobile': "url('/src/images/mobile/image-hero.jpg')",
+
+        'interactive-mobile': "url('/src/images/mobile/image-interactive.jpg')",
+        'interactive-desktop':
+          "url('/src/images/desktop/image-interactive.jpg')",
       },
       fontSize: {
         '5xl': '2.5rem',
