@@ -9,7 +9,7 @@ function HeadWrapper() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="bg-hero-pattern-mobile bg-center bg-cover lg:bg-hero-pattern-desktop">
-      <div className="w-10/12 max-w-7xl m-auto h-screen">
+      <div className="w-10/12 max-w-6xl m-auto h-screen">
         <div className="py-10 flex items-center justify-between">
           <img
             className={`w-40 ${isMenuOpen ? 'hidden lg:block' : ''}`}
