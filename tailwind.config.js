@@ -7,6 +7,13 @@ module.exports = {
         alata: ['Alata', 'sans-serif'],
         josefin: ['Josefin Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero-pattern-desktop': "url('/src/images/desktop/image-hero.jpg')",
+        'hero-pattern-mobile': "url('/src/images/mobile/image-hero.jpg')",
+      },
+      fontSize: {
+        '5xl': '2.5rem',
+      },
     },
   },
   variants: {
