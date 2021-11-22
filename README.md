@@ -52,8 +52,8 @@ Your users should be able to:
   <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-blue?style=flat-square&logo=css3&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-ffd32b?style=flat-square&logo=JavaScript&logoColor=black" />
   
-  <img alt="TailwindCSS" src="https://img.shields.io/badge/-TAILWINDCSS-bf4080?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/-REACT-bf4080?style=flat-square&logo=react&logoColor=white" />
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/-TAILWINDCSS-61DBFB?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-REACT-61DBFB?style=flat-square&logo=react&logoColor=white" />
 </p>
 <h3>What I Learnt</h3>
   <p>
