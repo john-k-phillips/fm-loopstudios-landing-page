@@ -22,7 +22,7 @@ function Navigation({ isMenuOpen, setIsMenuOpen }) {
         </button>
       </div>
 
-      <ul className="flex flex-col mt-28 pl-8 font-josefin uppercase lg:capitalize text-4xl gap-5 lg:gap-7 text-white font-medium lg:flex-row lg:pl-0 lg:mt-0 lg:text-lg lg:font-alata">
+      <ul className="nav-hover flex flex-col mt-28 pl-8 font-josefin uppercase lg:capitalize text-4xl gap-5 lg:gap-7 text-white font-medium lg:flex-row lg:pl-0 lg:mt-0 lg:text-lg lg:font-alata">
         <li>
           <a href="#about">About</a>
         </li>

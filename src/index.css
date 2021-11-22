@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-hover > li:after {
+  @apply transition-all duration-150 ease-in-out opacity-0 w-3/4 m-auto block bg-white;
+  content: '';
+  height: 2px;
+}
+
+.nav-hover > li:hover::after {
+  opacity: 1;
+}
