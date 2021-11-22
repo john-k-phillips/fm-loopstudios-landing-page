@@ -4,7 +4,7 @@ import InteractiveImage from '../../images/desktop/image-interactive.jpg';
 
 function Interactive() {
   return (
-    <div className="w-10/12 max-w-7xl m-auto lg:flex lg:justify-start lg:items-center lg:relative lg:mb-20">
+    <div className="w-10/12 max-w-6xl m-auto lg:flex lg:justify-start lg:items-center lg:relative lg:mb-20">
       <div className="bg-interactive-mobile bg-no-repeat bg-cover mt-40 mb-10 lg:bg-interactive-desktop lg:mb-0">
         <img
           src={InteractiveImage}
