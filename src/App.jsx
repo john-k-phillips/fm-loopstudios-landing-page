@@ -1,9 +1,11 @@
 import React from 'react';
+import HeadWrapper from './components/Header/HeadWrapper';
 
 function App() {
   return (
     <div>
       {/* Header */}
+      <HeadWrapper />
       {/* Logo */}
       {/* Navigation */}
       {/* Immersive Box */}
